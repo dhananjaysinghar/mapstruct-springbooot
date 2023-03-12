@@ -32,3 +32,13 @@ curl --location 'http://localhost:8080/api/book' \
 ~~~
 curl --location 'http://localhost:8080/api/book/test_servicePlanId'
 ~~~
+
+### REF
+~~~
+https://mapstruct.org/
+
+https://www.baeldung.com/java-mapstruct-mapping-collections#:~:text=In%20general%2C%20mapping%20collections%20with,generate%20the%20mapping%20code%20automatically.
+
+https://www.youtube.com/watch?v=EVCrLp-k494&t=1996s
+
+~~~
