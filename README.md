@@ -37,20 +37,20 @@ curl --location 'http://localhost:8080/api/book' \
 
 
 
-#### DTO
+### DTO
 ~~~
 
 {
-    "servicePlanNumber": "test_servicePlanId",
+    "servicePlanNumber": "test_servicePlanId", // LEVEL-1
     "agreementNumber": "test_agreementNumber",
     "products": [
         {
-            "productNumber": "test_productCode",
+            "productNumber": "test_productCode", // LEVEL-3
             "productName": "test_productName"
         }
     ],
     "booking": {
-        "bookingNumber": "test_bookingId",
+        "bookingNumber": "test_bookingId",  // LEVEL-2
         "bookingDate": "30/05/1990",
         "bookingStatus": "Confirmed",
         "parties": [
